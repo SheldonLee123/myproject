@@ -4,8 +4,8 @@ void setup(){
 }
 void loop(){
   digitalWrite(ledPin,HIGH);//设定PIN5脚为HIGH=5v左右
-  delay(2000);//设定延时时间，2000=2秒
+  delay(1000);//设定延时时间，2000=2秒
   digitalWrite(ledPin,LOW);//设定PIN5脚为LOW=0v
-  delay(2000);//设定延时时间，2000=2秒
+  delay(1000);//设定延时时间，2000=2秒
 }
 
